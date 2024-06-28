@@ -1,0 +1,19 @@
+Utilizamos o aplicativo Canva para a criação da apresentação;
+Código utilizado na apresentação:
+
+# Antes:
+
+def par_impar2(num):
+    if num % 2 == 0:
+        print("Par")
+    else:
+        print("Ímpar")
+
+par_impar2(6)
+
+# Depois:
+
+def par_impar(num):
+    print("Par!" if num % 2 == 0 else "Ímpar!")
+
+par_impar(3)
